@@ -17,6 +17,10 @@ namespace liveprintusa
         {
             if (lobj != null)
             {
+                using (EF.DAO.ContextTableContainer db = new EF.DAO.ContextTableContainer())
+                {
+
+                }
                 return 1;
             }
             return 0;
